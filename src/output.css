@@ -501,6 +501,161 @@ video {
   --tw-contain-paint:  ;
   --tw-contain-style:  ;
 }
-.text-wrap {
-  text-wrap: wrap;
+.container {
+  width: 100%;
+}
+@media (min-width: 640px) {
+
+  .container {
+    max-width: 640px;
+  }
+}
+@media (min-width: 768px) {
+
+  .container {
+    max-width: 768px;
+  }
+}
+@media (min-width: 1024px) {
+
+  .container {
+    max-width: 1024px;
+  }
+}
+@media (min-width: 1280px) {
+
+  .container {
+    max-width: 1280px;
+  }
+}
+@media (min-width: 1536px) {
+
+  .container {
+    max-width: 1536px;
+  }
+}
+.absolute {
+  position: absolute;
+}
+.relative {
+  position: relative;
+}
+.top-0 {
+  top: 0px;
+}
+.bottom-0 {
+  bottom: 0px;
+}
+.bottom-3 {
+  bottom: 0.75rem;
+}
+.left-0 {
+  left: 0px;
+}
+.right-0 {
+  right: 0px;
+}
+.bottom-7 {
+  bottom: 1.75rem;
+}
+.z-0 {
+  z-index: 0;
+}
+.z-10 {
+  z-index: 10;
+}
+.z-\[-1\] {
+  z-index: -1;
+}
+.z-\[-1px\] {
+  z-index: -1px;
+}
+.z-\[\] {
+  z-index: ;
+}
+.-z-\[1\] {
+  z-index: -1;
+}
+.m-0 {
+  margin: 0px;
+}
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+.mt-9 {
+  margin-top: 2.25rem;
+}
+.mt-3 {
+  margin-top: 0.75rem;
+}
+.h-full {
+  height: 100%;
+}
+.h-screen {
+  height: 100vh;
+}
+.h-80 {
+  height: 20rem;
+}
+.h-auto {
+  height: auto;
+}
+.w-full {
+  width: 100%;
+}
+.w-auto {
+  width: auto;
+}
+.bg-\[url\(\'\/img\/hero-pattern\.svg\'\)\] {
+  background-image: url('/img/hero-pattern.svg');
+}
+.bg-\[url\(\'\/images\/hero-pattern\.svg\'\)\] {
+  background-image: url('/images/hero-pattern.svg');
+}
+.bg-\[url\(\'\/images\/annual-report\.png\'\)\] {
+  background-image: url('/images/annual-report.png');
+}
+.bg-\[url\(\'\.\.\/public\/images\/annual-report\.png\'\)\] {
+  background-image: url('../public/images/annual-report.png');
+}
+.bg-cover {
+  background-size: cover;
+}
+.bg-auto {
+  background-size: auto;
+}
+.bg-contain {
+  background-size: contain;
+}
+.bg-center {
+  background-position: center;
+}
+.pt-9 {
+  padding-top: 2.25rem;
+}
+.pt-36 {
+  padding-top: 9rem;
+}
+.text-center {
+  text-align: center;
+}
+.text-7xl {
+  font-size: 4.5rem;
+  line-height: 1;
+}
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+.font-normal {
+  font-weight: 400;
+}
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
